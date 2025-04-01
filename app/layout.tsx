@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Banner } from "@/components";
 
 export const metadata: Metadata = {
   title: "Pokedex",
@@ -14,8 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        <Banner />
+      <body className="bg-gray-100">        
         {children}
       </body>
     </html>
