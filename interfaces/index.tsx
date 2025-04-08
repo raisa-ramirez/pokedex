@@ -2,7 +2,7 @@ import { Dispatch, SetStateAction } from 'react';
 
 export interface AppContextProps {
   pokemon: SinglePokemon | '';
-  setPokemon: Dispatch<SetStateAction<SinglePokemon>>;
+  setPokemon: Dispatch<SetStateAction<SinglePokemon | ''>>;
 }
 
 export interface PokemonProps {
