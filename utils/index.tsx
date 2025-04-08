@@ -32,7 +32,7 @@ const transformArray = (stats: any[]) => {
   return array;
 };
 
-const moveChips = (moves: Moves[]) => {
+const moveChips = (moves: string[]) => {
   let chipMoves = [];
   let size = moves.length > 8 ? 6 : moves.length;
   for (let index = 0; index < size; index++) {
